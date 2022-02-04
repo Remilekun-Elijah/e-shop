@@ -1919,7 +1919,7 @@ footer .widget_title,
 }
 .form-control, .form-control:focus,
 .custom_select select {
-	height: 40px;
+	height: 100%;
 }
 .form-control {
 	font-size: 14px;
