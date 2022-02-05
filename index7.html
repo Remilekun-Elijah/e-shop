@@ -11,7 +11,7 @@
  <meta name="keywords" content="ecommerce, electronics store, Fashion store, furniture store,  bootstrap 4, clean, minimal, modern, online store, responsive, retail, shopping, ecommerce store">
 
  <!-- SITE TITLE -->
- <title>Zion Kolors - Buying and selling of clothes </title>
+ <title>Zion Kolors - Buying and selling made easier</title>
  <!-- Favicon Icon -->
  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
  <!-- Animation CSS -->
@@ -73,178 +73,316 @@
  </div>
  <!-- END LOADER -->
 
+ <!-- Home Popup Section -->
+ <!-- <div class="modal fade subscribe_popup" id="onload-popup" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="ion-ios-close-empty"></i></span>
+                </button>
+                <div class="row no-gutters">
+                    <div class="col-sm-5">
+                    	<div class="background_bg h-100" data-img-src="assets/images/popup_img.jpg"></div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="popup_content">
+                            <div class="popup-text">
+                                <div class="heading_s1">
+                                    <h4>Subscribe and Get 25% Discount!</h4>
+                                </div>
+                                <p>Subscribe to the newsletter to receive updates about new products.</p>
+                            </div>
+                            <form method="post">
+                            	<div class="form-group">
+                                	<input name="email" required type="email" class="form-control rounded-0" placeholder="Enter Your Email">
+                                </div>
+                                <div class="form-group">
+                                	<button class="btn btn-fill-line btn-block text-uppercase rounded-0" title="Subscribe" type="submit">Subscribe</button>
+                                </div>
+                            </form>
+                            <div class="chek-form">
+                                <div class="custome-checkbox">
+                                    <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox3" value="">
+                                    <label class="form-check-label" for="exampleCheckbox3"><span>Don't show this popup again!</span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    	</div>
+    </div>
+</div> -->
+ <!-- End Screen Load Popup Section -->
 
  <!-- START HEADER -->
- <header class="header_wrap">
+ <header class="header_wrap fixed-top header_with_topbar">
 
-  <div class="middle-header dark_skin">
+  <div class="bottom_header dark_skin main_menu_uppercase">
    <div class="container">
-    <div class="nav_block">
+    <nav class="navbar navbar-expand-lg">
      <a class="navbar-brand" href="index.html">
-      <img class="logo_light" src="assets/images/logo-zk.png" width="120" height="80" alt="logo" />
-      <img class="logo_dark" src="assets/images/logo-zk.png" width="120" height="80" alt="logo" />
+      <img class="logo_light" src="assets/images/logo_light.png" alt="logo" />
+      <img class="logo_dark" src="assets/images/logo_dark.png" alt="logo" />
      </a>
-     <div class="contact_phone order-md-last">
-      <i class="linearicons-phone-wave"></i>
-      <span>+234-803-842-5980</span>
-     </div>
-     <div class="product_search_form">
-      <form>
-       <div class="input-group">
-        <div class="input-group-prepend">
-         <div class="custom_select">
-          <select class="first_null">
-                <option value="">All Category</option>
-                <option value="Dresses">Hair</option>
-                <option value="Shirt-Tops">Shoes</option>
-                <option value="T-Shirt">Bags</option>
-                <option value="Pents">Clothes</option>
-                <option value="Jeans">Makeup</option>
-            </select>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false"> 
+                    <span class="ion-android-menu"></span>
+                </button>
+     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+       <li class="dropdow">
+        <a data-toggle="dropdown" class="nav-link dropdown-toggl active" href="#">Home</a>
+        <div class="dropdown-menu d-none">
+         <ul>
+          <li><a class="dropdown-item nav-link nav_item active" href="index.html">Fashion 1</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="index-2.html">Fashion 2</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="index-3.html">Furniture 1</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="index-4.html">Furniture 2</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="index-5.html">Electronics 1</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="index-6.html">Electronics 2</a></li>
+         </ul>
+        </div>
+       </li>
+       <li class="dropdown">
+        <a class="dropdown-toggl nav-link" href="#" data-toggle="dropdown">Pages</a>
+        <div class="dropdown-menu d-none">
+         <ul>
+          <li><a class="dropdown-item nav-link nav_item" href="about.html">About Us</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="contact.html">Contact Us</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="faq.html">Faq</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="404.html">404 Error Page</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="login.html">Login</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="signup.html">Register</a></li>
+          <li><a class="dropdown-item nav-link nav_item" href="term-condition.html">Terms and Conditions</a></li>
+         </ul>
+        </div>
+       </li>
+       <li class="dropdown dropdown-mega-menu">
+        <a class="dropdown-toggl nav-link" href="#" data-toggle="dropdown">Products</a>
+        <div class="dropdown-menu d-none">
+         <ul class="mega-menu d-lg-flex">
+          <li class="mega-menu-col col-lg-3">
+           <ul>
+            <li class="dropdown-header">Woman's</li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-list-left-sidebar.html">Vestibulum sed</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-left-sidebar.html">Donec porttitor</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-right-sidebar.html">Donec vitae facilisis</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-list.html">Curabitur tempus</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-load-more.html">Vivamus in tortor</a></li>
+           </ul>
+          </li>
+          <li class="mega-menu-col col-lg-3">
+           <ul>
+            <li class="dropdown-header">Men's</li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-cart.html">Donec vitae ante ante</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="checkout.html">Etiam ac rutrum</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="wishlist.html">Quisque condimentum</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="compare.html">Curabitur laoreet</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="order-completed.html">Vivamus in tortor</a></li>
+           </ul>
+          </li>
+          <li class="mega-menu-col col-lg-3">
+           <ul>
+            <li class="dropdown-header">Kid's</li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail.html">Donec vitae facilisis</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-left-sidebar.html">Quisque condimentum</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-right-sidebar.html">Etiam ac rutrum</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-thumbnails-left.html">Donec vitae ante ante</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-thumbnails-left.html">Donec porttitor</a></li>
+           </ul>
+          </li>
+          <li class="mega-menu-col col-lg-3">
+           <ul>
+            <li class="dropdown-header">Accessories</li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail.html">Donec vitae facilisis</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-left-sidebar.html">Quisque condimentum</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-right-sidebar.html">Etiam ac rutrum</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-thumbnails-left.html">Donec vitae ante ante</a></li>
+            <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-thumbnails-left.html">Donec porttitor</a></li>
+           </ul>
+          </li>
+         </ul>
+         <div class="d-lg-flex menu_banners">
+          <div class="col-sm-4">
+           <div class="header-banner">
+            <img src="assets/images/menu_banner1.jpg" alt="menu_banner1">
+            <div class="banne_info">
+             <h6>10% Off</h6>
+             <h4>New Arrival</h4>
+             <a href="#">Shop now</a>
+            </div>
+           </div>
+          </div>
+          <div class="col-sm-4">
+           <div class="header-banner">
+            <img src="assets/images/menu_banner2.jpg" alt="menu_banner2">
+            <div class="banne_info">
+             <h6>15% Off</h6>
+             <h4>Men's Fashion</h4>
+             <a href="#">Shop now</a>
+            </div>
+           </div>
+          </div>
+          <div class="col-sm-4">
+           <div class="header-banner">
+            <img src="assets/images/menu_banner3.jpg" alt="menu_banner3">
+            <div class="banne_info">
+             <h6>23% Off</h6>
+             <h4>Kids Fashion</h4>
+             <a href="#">Shop now</a>
+            </div>
+           </div>
+          </div>
          </div>
         </div>
-        <input class="form-control" placeholder="Search Product..." required="" type="text">
-        <button type="submit" class="search_btn"><i class="linearicons-magnifier"></i></button>
-       </div>
-      </form>
-     </div>
-    </div>
-   </div>
-  </div>
-  <div class="bottom_header light_skin main_menu_uppercase bg_dark mb-4">
-   <div class="container">
-    <div class="row">
-     <div class="col-lg-3 col-md-4 col-sm-6 col-3">
-      <div class="categories_wrap">
-       <button type="button" data-toggle="collapse" data-target="#navCatContent" aria-expanded="false" class="categories_btn">
-                            <i class="linearicons-menu"></i><span>All Categories </span>
-                        </button>
-       <div id="navCatContent" class="nav_cat navbar collapse">
-        <ul>
-         <li class="">
-          <a class="dropdown-ite nav-link" href="#"><i class="flaticon-woman"></i> <span>Hair</span></a>
-
-         </li>
-
-         <li class="">
-          <a class="nav-link" href="#"><i class="flaticon-friendship"></i> <span>Kiddies wears</span></a>
-         </li>
-
-         <li><a class="dropdown-item nav-link nav_item" href="coming-soon.html"><i class="flaticon-jacket"></i> <span>Clothes</span></a></li>
-         <li><a class="dropdown-item nav-link nav_item" href="404.html"><i class="flaticon-vintage"></i> <span>Curves</span></a></li>
-         <li><a class="dropdown-item nav-link nav_item" href="404.html"><i class="flaticon-sneakers"></i> <span>Shoes</span></a></li>
-         <li><a class="dropdown-item nav-link nav_item" href="login.html"><i class="ion-bag"></i> <span>Bags</span></a></li>
-         <!-- <li><a class="dropdown-item nav-link nav_item" href="register.html"><i class="flaticon-necklace"></i> <span>Jewellery</span></a></li> -->
-         <li><a class="dropdown-item nav-link nav_item" href="coming-soon.html"><i class="flaticon-herbal"></i> <span>Make ups</span></a></li>
-         <li><a class="dropdown-item nav-link nav_item" href="404.html"><i class="ion-eye"></i> <span>Eyelashes</span></a></li>
-
-       </div>
-      </div>
-     </div>
-     <div class="col-lg-9 col-md-8 col-sm-6 col-9">
-      <nav class="navbar navbar-expand-lg">
-       <button class="navbar-toggler side_navbar_toggler" type="button" data-toggle="collapse" data-target="#navbarSidetoggle" aria-expanded="false"> 
-                            <span class="ion-android-menu"></span>
-                        </button>
-       <div class="collapse navbar-collapse mobile_side_menu" id="navbarSidetoggle">
-        <ul class="navbar-nav">
-         <li class="dropdown">
-          <a data-toggle="dropdown" class="nav-link dropdown-toggl active" href="#">Home</a>
-         </li>
-         <li class="">
-          <a class="nav-link" href="#" data-toggle="">Products</a>
-         </li>
-         <li class="">
-          <a class="nav-link" href="#" data-toggle="dropdown">Shop</a>
-          <div class="dropdown-menu d-none">
-           <ul class="mega-menu d-lg-flex">
-            <li class="mega-menu-col col-lg-9">
-             <ul class="d-lg-flex">
-              <li class="mega-menu-col col-lg-4">
-               <ul>
-                <li class="dropdown-header">Shop Page Layout</li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-list.html">shop List view</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-list-left-sidebar.html">shop List Left Sidebar</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-list-right-sidebar.html">shop List Right Sidebar</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-left-sidebar.html">Left Sidebar</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-right-sidebar.html">Right Sidebar</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-load-more.html">Shop Load More</a></li>
-               </ul>
-              </li>
-              <li class="mega-menu-col col-lg-4">
-               <ul>
-                <li class="dropdown-header">Other Pages</li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-cart.html">Cart</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="checkout.html">Checkout</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="my-account.html">My Account</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="wishlist.html">Wishlist</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="compare.html">compare</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="order-completed.html">Order Completed</a></li>
-               </ul>
-              </li>
-              <li class="mega-menu-col col-lg-4">
-               <ul>
-                <li class="dropdown-header">Product Pages</li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail.html">Default</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-left-sidebar.html">Left Sidebar</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-right-sidebar.html">Right Sidebar</a></li>
-                <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-thumbnails-left.html">Thumbnails Left</a></li>
-               </ul>
-              </li>
+       </li>
+       <li class="dropdown">
+        <a class="dropdown-toggl nav-link" href="#" data-toggle="dropdown">Blog</a>
+        <div class="dropdown-men d-none dropdown-reverse">
+         <ul>
+          <li>
+           <a class="dropdown-item menu-link dropdown-toggler" href="#">Grids</a>
+           <div class="dropdown-menu">
+            <ul>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-three-columns.html">3 columns</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-four-columns.html">4 columns</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-left-sidebar.html">Left Sidebar</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-right-sidebar.html">right Sidebar</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-standard-left-sidebar.html">Standard Left Sidebar</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-standard-right-sidebar.html">Standard right Sidebar</a></li>
+            </ul>
+           </div>
+          </li>
+          <li>
+           <a class="dropdown-item menu-link dropdown-toggler" href="#">Masonry</a>
+           <div class="dropdown-menu">
+            <ul>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-masonry-three-columns.html">3 columns</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-masonry-four-columns.html">4 columns</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-masonry-left-sidebar.html">Left Sidebar</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-masonry-right-sidebar.html">right Sidebar</a></li>
+            </ul>
+           </div>
+          </li>
+          <li>
+           <a class="dropdown-item menu-link dropdown-toggler" href="#">Single Post</a>
+           <div class="dropdown-menu">
+            <ul>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-single.html">Default</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-single-left-sidebar.html">left sidebar</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-single-slider.html">slider post</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-single-video.html">video post</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-single-audio.html">audio post</a></li>
+            </ul>
+           </div>
+          </li>
+          <li>
+           <a class="dropdown-item menu-link dropdown-toggler" href="#">List</a>
+           <div class="dropdown-menu">
+            <ul>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-list-left-sidebar.html">left sidebar</a></li>
+             <li><a class="dropdown-item nav-link nav_item" href="blog-list-right-sidebar.html">right sidebar</a></li>
+            </ul>
+           </div>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li class="dropdow dropdown-mega-men">
+        <a class="dropdown-toggl nav-link" href="/shop-list-right-sidebar.html" data-toggl="dropdow">Shop</a>
+        <div class="dropdown-menu d-none">
+         <ul class="mega-menu d-lg-flex">
+          <li class="mega-menu-col col-lg-9">
+           <ul class="d-lg-flex">
+            <li class="mega-menu-col col-lg-4">
+             <ul>
+              <li class="dropdown-header">Shop Page Layout</li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-list.html">shop List view</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-list-left-sidebar.html">shop List Left Sidebar</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-list-right-sidebar.html">shop List Right Sidebar</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-left-sidebar.html">Left Sidebar</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-right-sidebar.html">Right Sidebar</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-load-more.html">Shop Load More</a></li>
              </ul>
             </li>
-            <li class="mega-menu-col col-lg-3">
-             <div class="header_banner">
-              <div class="header_banner_content">
-               <div class="shop_banner">
-                <div class="banner_img overlay_bg_40">
-                 <img src="assets/images/shop_banner2.jpg" alt="shop_banner2" />
-                </div>
-                <div class="shop_bn_content">
-                 <h6 class="text-uppercase shop_subtitle">New Collection</h6>
-                 <h5 class="text-uppercase shop_title">Sale 30% Off</h5>
-                 <a href="#" class="btn btn-white rounded-0 btn-xs text-uppercase">Shop Now</a>
-                </div>
-               </div>
-              </div>
-             </div>
+            <li class="mega-menu-col col-lg-4">
+             <ul>
+              <li class="dropdown-header">Other Pages</li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-cart.html">Cart</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="checkout.html">Checkout</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="my-account.html">My Account</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="wishlist.html">Wishlist</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="compare.html">compare</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="order-completed.html">Order Completed</a></li>
+             </ul>
+            </li>
+            <li class="mega-menu-col col-lg-4">
+             <ul>
+              <li class="dropdown-header">Product Pages</li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail.html">Default</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-left-sidebar.html">Left Sidebar</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-right-sidebar.html">Right Sidebar</a></li>
+              <li><a class="dropdown-item nav-link nav_item" href="shop-product-detail-thumbnails-left.html">Thumbnails Left</a></li>
+             </ul>
             </li>
            </ul>
-          </div>
-         </li>
-         <li><a class="nav-link nav_item" href="contact.html">Contact Us</a></li>
-        </ul>
-       </div>
-       <ul class="navbar-nav attr-nav align-items-center">
-        <li><a href="#" class="nav-link"><i class="linearicons-user"></i></a></li>
-        <li><a href="#" class="nav-link"><i class="linearicons-heart"></i><span class="wishlist_count">0</span></a></li>
-        <li class="dropdown cart_dropdown"><a class="nav-link cart_trigger" href="#" data-toggle="dropdown"><i class="linearicons-cart"></i><span class="cart_count">2</span></a>
-         <div class="cart_box dropdown-menu dropdown-menu-right">
-          <ul class="cart_list">
-           <li>
-            <a href="#" class="item_remove"><i class="ion-close"></i></a>
-            <a href="#"><img src="assets/images/cart_thamb1.jpg" alt="cart_thumb1">Variable product 001</a>
-            <span class="cart_quantity"> 1 x <span class="cart_amount"> <span class="price_symbole">$</span></span>78.00</span>
-           </li>
-           <li>
-            <a href="#" class="item_remove"><i class="ion-close"></i></a>
-            <a href="#"><img src="assets/images/cart_thamb2.jpg" alt="cart_thumb2">Ornare sed consequat</a>
-            <span class="cart_quantity"> 1 x <span class="cart_amount"> <span class="price_symbole">$</span></span>81.00</span>
-           </li>
-          </ul>
-          <div class="cart_footer">
-           <p class="cart_total"><strong>Subtotal:</strong> <span class="cart_price"> <span class="price_symbole">$</span></span>159.00</p>
-           <p class="cart_buttons"><a href="#" class="btn btn-fill-line view-cart">View Cart</a><a href="#" class="btn btn-fill-out checkout">Checkout</a></p>
-          </div>
-         </div>
-        </li>
-       </ul>
-       <div class="pr_search_icon">
-        <a href="javascript:void(0);" class="nav-link pr_search_trigger"><i class="linearicons-magnifier"></i></a>
-       </div>
-      </nav>
+          </li>
+          <li class="mega-menu-col col-lg-3">
+           <div class="header_banner">
+            <div class="header_banner_content">
+             <div class="shop_banner">
+              <div class="banner_img overlay_bg_40">
+               <img src="assets/images/shop_banner.jpg" alt="shop_banner" />
+              </div>
+              <div class="shop_bn_content">
+               <h5 class="text-uppercase shop_subtitle">New Collection</h5>
+               <h3 class="text-uppercase shop_title">Sale 30% Off</h3>
+               <a href="#" class="btn btn-white rounded-0 btn-sm text-uppercase">Shop Now</a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li><a class="nav-link nav_item" href="contact.html">Contact Us</a></li>
+      </ul>
      </div>
-    </div>
+     <ul class="navbar-nav attr-nav align-items-center">
+      <li><a href="javascript:void(0);" class="nav-link search_trigger"><i class="linearicons-magnifier"></i></a>
+       <div class="search_wrap">
+        <span class="close-search"><i class="ion-ios-close-empty"></i></span>
+        <form>
+         <input type="text" placeholder="Search" class="form-control" id="search_input">
+         <button type="submit" class="search_icon"><i class="ion-ios-search-strong"></i></button>
+        </form>
+       </div>
+       <div class="search_overlay"></div>
+      </li>
+      <li class="dropdown cart_dropdown"><a class="nav-link cart_trigger" href="#" data-toggle="dropdown"><i class="linearicons-cart"></i><span class="cart_count">2</span></a>
+       <div class="cart_box dropdown-menu dropdown-menu-right">
+        <ul class="cart_list">
+         <li>
+          <a href="#" class="item_remove"><i class="ion-close"></i></a>
+          <a href="#"><img src="assets/images/cart_thamb1.jpg" alt="cart_thumb1">Variable product 001</a>
+          <span class="cart_quantity"> 1 x <span class="cart_amount"> <span class="price_symbole">$</span></span>78.00</span>
+         </li>
+         <li>
+          <a href="#" class="item_remove"><i class="ion-close"></i></a>
+          <a href="#"><img src="assets/images/cart_thamb2.jpg" alt="cart_thumb2">Ornare sed consequat</a>
+          <span class="cart_quantity"> 1 x <span class="cart_amount"> <span class="price_symbole">$</span></span>81.00</span>
+         </li>
+        </ul>
+        <div class="cart_footer">
+         <p class="cart_total"><strong>Subtotal:</strong> <span class="cart_price"> <span class="price_symbole">$</span></span>159.00</p>
+         <p class="cart_buttons"><a href="#" class="btn btn-fill-line rounded-0 view-cart">View Cart</a><a href="#" class="btn btn-fill-out rounded-0 checkout">Checkout</a></p>
+        </div>
+       </div>
+      </li>
+     </ul>
+    </nav>
    </div>
   </div>
  </header>
@@ -252,53 +390,62 @@
 
  <!-- START SECTION BANNER -->
  <div class="banner_section slide_medium shop_banner_slider staggered-animation-wrap">
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-9 offset-lg-3">
-     <div id="carouselExampleControls" class="carousel slide light_arrow" data-ride="carousel">
-      <div class="carousel-inner">
-       <div class="carousel-item active background_bg" data-img-src="assets/images/banner4.jpg">
-        <div class="banner_slide_content banner_content_inner">
-         <div class="col-lg-8 col-10">
-          <div class="banner_content overflow-hidden">
-           <h5 class="mb-3 staggered-animation font-weight-light" data-animation="slideInLeft" data-animation-delay="0.5s">Get up to 50% off Today Only!</h5>
-           <h2 class="staggered-animation" data-animation="slideInLeft" data-animation-delay="1s">Woman Fashion</h2>
-           <a class="btn btn-fill-out rounded-0 staggered-animation text-uppercase" href="shop-left-sidebar.html" data-animation="slideInLeft" data-animation-delay="1.5s">Shop Now</a>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="carousel-item background_bg" data-img-src="assets/images/banner5.jpg">
-        <div class="banner_slide_content banner_content_inner">
-         <div class="col-lg-8 col-10">
-          <div class="banner_content overflow-hidden">
-           <h5 class="mb-3 staggered-animation font-weight-light" data-animation="slideInLeft" data-animation-delay="0.5s">50% off in all products</h5>
-           <h2 class="staggered-animation" data-animation="slideInLeft" data-animation-delay="1s">Man Fashion</h2>
-           <a class="btn btn-fill-out rounded-0 staggered-animation text-uppercase" href="shop-left-sidebar.html" data-animation="slideInLeft" data-animation-delay="1.5s">Shop Now</a>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="carousel-item background_bg" data-img-src="assets/images/banner6.jpg">
-        <div class="banner_slide_content banner_content_inner">
-         <div class="col-lg-8 col-10">
-          <div class="banner_content overflow-hidden">
-           <h5 class="mb-3 staggered-animation font-weight-light" data-animation="slideInLeft" data-animation-delay="0.5s">Taking your Viewing Experience to Next Level</h5>
-           <h2 class="staggered-animation" data-animation="slideInLeft" data-animation-delay="1s">Summer Sale</h2>
-           <a class="btn btn-fill-out rounded-0 staggered-animation text-uppercase" href="shop-left-sidebar.html" data-animation="slideInLeft" data-animation-delay="1.5s">Shop Now</a>
-          </div>
+  <div id="carouselExampleControls" class="carousel slide carousel-fade light_arrow" data-ride="carousel">
+   <div class="carousel-inner">
+    <div class="carousel-item active background_bg" data-img-src="assets/images/banner1.jpg">
+     <div class="banner_slide_content">
+      <div class="container">
+       <!-- STRART CONTAINER -->
+       <div class="row">
+        <div class="col-lg-7 col-9">
+         <div class="banner_content overflow-hidden">
+          <h5 class="mb-3 staggered-animation font-weight-light" data-animation="slideInLeft" data-animation-delay="0.5s">Get up to 50% off Today Only!</h5>
+          <h2 class="staggered-animation" data-animation="slideInLeft" data-animation-delay="1s">Woman Fashion</h2>
+          <a class="btn btn-fill-out rounded-0 staggered-animation text-uppercase" href="shop-left-sidebar.html" data-animation="slideInLeft" data-animation-delay="1.5s">Shop Now</a>
          </div>
         </div>
        </div>
       </div>
-      <ol class="carousel-indicators indicators_style1">
-       <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
-       <li data-target="#carouselExampleControls" data-slide-to="1"></li>
-       <li data-target="#carouselExampleControls" data-slide-to="2"></li>
-      </ol>
+      <!-- END CONTAINER-->
+     </div>
+    </div>
+    <div class="carousel-item background_bg" data-img-src="assets/images/banner2.jpg">
+     <div class="banner_slide_content">
+      <div class="container">
+       <!-- STRART CONTAINER -->
+       <div class="row">
+        <div class="col-lg-6">
+         <div class="banner_content overflow-hidden">
+          <h5 class="mb-3 staggered-animation font-weight-light" data-animation="slideInLeft" data-animation-delay="0.5s">50% off in all products</h5>
+          <h2 class="staggered-animation" data-animation="slideInLeft" data-animation-delay="1s">Man Fashion</h2>
+          <a class="btn btn-fill-out rounded-0 staggered-animation text-uppercase" href="shop-left-sidebar.html" data-animation="slideInLeft" data-animation-delay="1.5s">Shop Now</a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- END CONTAINER-->
+     </div>
+    </div>
+    <div class="carousel-item background_bg" data-img-src="assets/images/banner3.jpg">
+     <div class="banner_slide_content">
+      <div class="container">
+       <!-- STRART CONTAINER -->
+       <div class="row">
+        <div class="col-lg-6">
+         <div class="banner_content overflow-hidden">
+          <h5 class="mb-3 staggered-animation font-weight-light" data-animation="slideInLeft" data-animation-delay="0.5s">Taking your Viewing Experience to Next Level</h5>
+          <h2 class="staggered-animation" data-animation="slideInLeft" data-animation-delay="1s">Summer Sale</h2>
+          <a class="btn btn-fill-out rounded-0 staggered-animation text-uppercase" href="shop-left-sidebar.html" data-animation="slideInLeft" data-animation-delay="1.5s">Shop Now</a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- END CONTAINER-->
      </div>
     </div>
    </div>
+   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"><i class="ion-chevron-left"></i></a>
+   <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"><i class="ion-chevron-right"></i></a>
   </div>
  </div>
  <!-- END SECTION BANNER -->
@@ -306,44 +453,68 @@
  <!-- END MAIN CONTENT -->
  <div class="main_content">
 
-  <!-- START SECTION SHOP -->
-  <div class="section small_pb">
+  <!-- START SECTION BANNER -->
+  <div class="section pb_20">
    <div class="container">
     <div class="row">
-     <div class="col-12">
-      <div class="heading_tab_header">
-       <div class="heading_s2">
-        <h2>Exclusive Products</h2>
+     <div class="col-md-6">
+      <div class="single_banner">
+       <img src="assets/images/shop_banner_img1.jpg" alt="shop_banner_img1" />
+       <div class="single_banner_info">
+        <h5 class="single_bn_title1">Super Sale</h5>
+        <h3 class="single_bn_title">New Collection</h3>
+        <a href="shop-left-sidebar.html" class="single_bn_link">Shop Now</a>
        </div>
-       <div class="tab-style2">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tabmenubar" aria-expanded="false"> 
-                            <span class="ion-android-menu"></span>
-                        </button>
-        <ul class="nav nav-tabs justify-content-center justify-content-md-end" id="tabmenubar" role="tablist">
-         <li class="nav-item">
-          <a class="nav-link active" id="arrival-tab" data-toggle="tab" href="#arrival" role="tab" aria-controls="arrival" aria-selected="true">New Arrival</a>
-         </li>
-         <li class="nav-item">
-          <a class="nav-link" id="sellers-tab" data-toggle="tab" href="#sellers" role="tab" aria-controls="sellers" aria-selected="false">Best Sellers</a>
-         </li>
-         <li class="nav-item">
-          <a class="nav-link" id="featured-tab" data-toggle="tab" href="#featured" role="tab" aria-controls="featured" aria-selected="false">Featured</a>
-         </li>
-         <li class="nav-item">
-          <a class="nav-link" id="special-tab" data-toggle="tab" href="#special" role="tab" aria-controls="special" aria-selected="false">Special Offer
-    </a>
-         </li>
-        </ul>
+      </div>
+     </div>
+     <div class="col-md-6">
+      <div class="single_banner">
+       <img src="assets/images/shop_banner_img2.jpg" alt="shop_banner_img2" />
+       <div class="single_banner_info">
+        <h3 class="single_bn_title">New Season</h3>
+        <h4 class="single_bn_title1">Sale 40% Off</h4>
+        <a href="shop-left-sidebar.html" class="single_bn_link">Shop Now</a>
        </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- END SECTION BANNER -->
+
+  <!-- START SECTION SHOP -->
+  <div class="section small_pt pb_70">
+   <div class="container">
+    <div class="row justify-content-center">
+     <div class="col-md-6">
+      <div class="heading_s1 text-center">
+       <h2>Exclusive Products</h2>
       </div>
      </div>
     </div>
     <div class="row">
      <div class="col-12">
-      <div class="tab_slider">
+      <div class="tab-style1">
+       <ul class="nav nav-tabs justify-content-center" role="tablist">
+        <li class="nav-item">
+         <a class="nav-link active" id="arrival-tab" data-toggle="tab" href="#arrival" role="tab" aria-controls="arrival" aria-selected="true">New Arrival</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" id="sellers-tab" data-toggle="tab" href="#sellers" role="tab" aria-controls="sellers" aria-selected="false">Best Sellers</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" id="featured-tab" data-toggle="tab" href="#featured" role="tab" aria-controls="featured" aria-selected="false">Featured</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" id="special-tab" data-toggle="tab" href="#special" role="tab" aria-controls="special" aria-selected="false">Special Offer
+</a>
+        </li>
+       </ul>
+      </div>
+      <div class="tab-content">
        <div class="tab-pane fade show active" id="arrival" role="tabpanel" aria-labelledby="arrival-tab">
-        <div class="product_slider carousel_slider owl-carousel owl-theme nav_style1" data-loop="true" data-dots="false" data-nav="true" data-margin="20" data-responsive='{"0":{"items": "1"}, "481":{"items": "2"}, "768":{"items": "3"}, "1199":{"items": "4"}}'>
-         <div class="item">
+        <div class="row shop_container">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -386,7 +557,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -429,7 +600,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash">New</span>
            <div class="product_img">
@@ -471,7 +642,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -514,7 +685,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -557,7 +728,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash bg-danger">Hot</span>
            <div class="product_img">
@@ -600,7 +771,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash bg-success">Sale</span>
            <div class="product_img">
@@ -644,7 +815,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -690,8 +861,8 @@
         </div>
        </div>
        <div class="tab-pane fade" id="sellers" role="tabpanel" aria-labelledby="sellers-tab">
-        <div class="product_slider carousel_slider owl-carousel owl-theme nav_style1" data-loop="true" data-dots="false" data-nav="true" data-margin="20" data-responsive='{"0":{"items": "1"}, "481":{"items": "2"}, "768":{"items": "3"}, "1199":{"items": "4"}}'>
-         <div class="item">
+        <div class="row shop_container">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -734,7 +905,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash bg-danger">Hot</span>
            <div class="product_img">
@@ -777,7 +948,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -819,7 +990,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash bg-success">Sale</span>
            <div class="product_img">
@@ -863,7 +1034,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -906,7 +1077,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -949,7 +1120,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -992,7 +1163,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash bg-danger">Hot</span>
            <div class="product_img">
@@ -1039,8 +1210,8 @@
         </div>
        </div>
        <div class="tab-pane fade" id="featured" role="tabpanel" aria-labelledby="featured-tab">
-        <div class="product_slider carousel_slider owl-carousel owl-theme nav_style1" data-loop="true" data-dots="false" data-nav="true" data-margin="20" data-responsive='{"0":{"items": "1"}, "481":{"items": "2"}, "768":{"items": "3"}, "1199":{"items": "4"}}'>
-         <div class="item">
+        <div class="row shop_container">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1083,7 +1254,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1126,7 +1297,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1169,7 +1340,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash bg-success">Sale</span>
            <div class="product_img">
@@ -1213,7 +1384,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash bg-danger">Hot</span>
            <div class="product_img">
@@ -1257,7 +1428,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1299,7 +1470,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1342,7 +1513,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash">Sale</span>
            <div class="product_img">
@@ -1388,8 +1559,8 @@
         </div>
        </div>
        <div class="tab-pane fade" id="special" role="tabpanel" aria-labelledby="special-tab">
-        <div class="product_slider carousel_slider owl-carousel owl-theme nav_style1" data-loop="true" data-dots="false" data-nav="true" data-margin="20" data-responsive='{"0":{"items": "1"}, "481":{"items": "2"}, "768":{"items": "3"}, "1199":{"items": "4"}}'>
-         <div class="item">
+        <div class="row shop_container">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1432,7 +1603,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1475,7 +1646,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1518,7 +1689,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash">New</span>
            <div class="product_img">
@@ -1562,7 +1733,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1605,7 +1776,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1647,7 +1818,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <span class="pr_flash bg-success">Sale</span>
            <div class="product_img">
@@ -1691,7 +1862,7 @@
            </div>
           </div>
          </div>
-         <div class="item">
+         <div class="col-lg-3 col-md-4 col-6">
           <div class="product">
            <div class="product_img">
             <a href="shop-product-detail.html">
@@ -1742,47 +1913,39 @@
   </div>
   <!-- END SECTION SHOP -->
 
-  <!-- START SECTION BANNER -->
-  <div class="section pb_20 small_pt">
+  <!-- START SECTION SINGLE BANNER -->
+  <div class="section bg_light_blue2 pb-0 pt-md-0">
    <div class="container">
-    <div class="row">
-     <div class="col-md-6">
-      <div class="single_banner">
-       <img src="assets/images/shop_banner_img1.jpg" alt="shop_banner_img1">
-       <div class="single_banner_info">
-        <h5 class="single_bn_title1">Super Sale</h5>
-        <h3 class="single_bn_title">New Collection</h3>
-        <a href="shop-left-sidebar.html" class="single_bn_link">Shop Now</a>
+    <div class="row align-items-center flex-row-reverse">
+     <div class="col-md-6 offset-md-1">
+      <div class="medium_divider d-none d-md-block clearfix"></div>
+      <div class="trand_banner_text text-center text-md-left">
+       <div class="heading_s1 mb-3">
+        <span class="sub_heading">New season trends!</span>
+        <h2>Best Summer Collection</h2>
        </div>
+       <h5 class="mb-4">Sale Get up to 50% Off</h5>
+       <a href="shop-left-sidebar.html" class="btn btn-fill-out rounded-0">Shop Now</a>
       </div>
+      <div class="medium_divider clearfix"></div>
      </div>
-     <div class="col-md-6">
-      <div class="single_banner">
-       <img src="assets/images/shop_banner_img2.jpg" alt="shop_banner_img2">
-       <div class="single_banner_info">
-        <h3 class="single_bn_title">New Season</h3>
-        <h4 class="single_bn_title1">Sale 40% Off</h4>
-        <a href="shop-left-sidebar.html" class="single_bn_link">Shop Now</a>
-       </div>
+     <div class="col-md-5">
+      <div class="text-center trading_img">
+       <img src="assets/images/tranding_img.png" alt="tranding_img" />
       </div>
      </div>
     </div>
    </div>
   </div>
-  <!-- END SECTION BANNER -->
+  <!-- END SECTION SINGLE BANNER -->
 
   <!-- START SECTION SHOP -->
-  <div class="section small_pt small_pb">
+  <div class="section">
    <div class="container">
-    <div class="row">
-     <div class="col-md-12">
-      <div class="heading_tab_header">
-       <div class="heading_s2">
-        <h2>Deal Of The Days</h2>
-       </div>
-       <div class="deal_timer">
-        <div class="countdown_time countdown_style1" data-time="2021/09/28 13:22:15"></div>
-       </div>
+    <div class="row justify-content-center">
+     <div class="col-md-6">
+      <div class="heading_s1 text-center">
+       <h2>Featured Products</h2>
       </div>
      </div>
     </div>
@@ -2010,394 +2173,72 @@
   </div>
   <!-- END SECTION SHOP -->
 
-  <!-- START SECTION BANNER -->
-  <div class="section pb_20 small_pt">
-   <div class="container-fluid px-2">
-    <div class="row no-gutters">
-     <div class="col-md-4">
-      <div class="sale_banner">
-       <a class="hover_effect1" href="#">
-        <img src="assets/images/shop_banner_img3.jpg" alt="shop_banner_img3">
-       </a>
-      </div>
-     </div>
-     <div class="col-md-4">
-      <div class="sale_banner">
-       <a class="hover_effect1" href="#">
-        <img src="assets/images/shop_banner_img4.jpg" alt="shop_banner_img4">
-       </a>
-      </div>
-     </div>
-     <div class="col-md-4">
-      <div class="sale_banner">
-       <a class="hover_effect1" href="#">
-        <img src="assets/images/shop_banner_img5.jpg" alt="shop_banner_img5">
-       </a>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
-  <!-- END SECTION BANNER -->
-
-  <!-- START SECTION SHOP -->
-  <div class="section small_pt pb_20">
+  <!-- START SECTION TESTIMONIAL -->
+  <div class="section bg_redon">
    <div class="container">
-    <div class="row">
-     <div class="col-md-12">
-      <div class="heading_tab_header">
-       <div class="heading_s2">
-        <h2>Featured Products</h2>
-       </div>
+    <div class="row justify-content-center">
+     <div class="col-md-6">
+      <div class="heading_s1 text-center">
+       <h2>Our Client Say!</h2>
       </div>
      </div>
     </div>
-    <div class="row">
-     <div class="col-md-12">
-      <div class="product_slider product_list carousel_slider owl-carousel owl-theme nav_style3" data-loop="true" data-dots="false" data-nav="true" data-margin="20" data-responsive='{"0":{"items": "1"}, "767":{"items": "2"}, "991":{"items": "3"}, "1199":{"items": "3"}}'>
-       <div class="item">
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img1.jpg" alt="product_img1">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">Blue Dress For Woman</a></h6>
-          <div class="product_price">
-           <span class="price">$45.00</span>
-           <del>$55.25</del>
-           <div class="on_sale">
-            <span>35% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:80%"></div>
-           </div>
-           <span class="rating_num">(21)</span>
-          </div>
-         </div>
+    <div class="row justify-content-center">
+     <div class="col-lg-9">
+      <div class="testimonial_wrap testimonial_style1 carousel_slider owl-carousel owl-theme nav_style2" data-nav="true" data-dots="false" data-center="true" data-loop="true" data-autoplay="true" data-items='1'>
+       <div class="testimonial_box">
+        <div class="testimonial_desc">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis possimus quasi sint sit tempora voluptatem.</p>
         </div>
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img6.jpg" alt="product_img6">
-          </a>
+        <div class="author_wrap">
+         <div class="author_img">
+          <img src="assets/images/user_img1.jpg" alt="user_img1" />
          </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">Blue casual check shirt</a></h6>
-          <div class="product_price">
-           <span class="price">$55.00</span>
-           <del>$95.00</del>
-           <div class="on_sale">
-            <span>25% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:68%"></div>
-           </div>
-           <span class="rating_num">(15)</span>
-          </div>
-         </div>
-        </div>
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img12.jpg" alt="product_img12">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">Black T-shirt for woman</a></h6>
-          <div class="product_price">
-           <span class="price">$69.00</span>
-           <del>$89.00</del>
-           <div class="on_sale">
-            <span>20% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:70%"></div>
-           </div>
-           <span class="rating_num">(22)</span>
-          </div>
+         <div class="author_name">
+          <h6>Lissa Castro</h6>
+          <span>Designer</span>
          </div>
         </div>
        </div>
-       <div class="item">
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img2.jpg" alt="product_img2">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">Lether Gray Tuxedo</a></h6>
-          <div class="product_price">
-           <span class="price">$55.00</span>
-           <del>$95.00</del>
-           <div class="on_sale">
-            <span>25% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:68%"></div>
-           </div>
-           <span class="rating_num">(15)</span>
-          </div>
-         </div>
+       <div class="testimonial_box">
+        <div class="testimonial_desc">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis possimus quasi sint sit tempora voluptatem.</p>
         </div>
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img7.jpg" alt="product_img7">
-          </a>
+        <div class="author_wrap">
+         <div class="author_img">
+          <img src="assets/images/user_img2.jpg" alt="user_img2" />
          </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">white black line dress</a></h6>
-          <div class="product_price">
-           <span class="price">$68.00</span>
-           <del>$99.00</del>
-           <div class="on_sale">
-            <span>20% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:87%"></div>
-           </div>
-           <span class="rating_num">(25)</span>
-          </div>
-         </div>
-        </div>
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img10.jpg" alt="product_img10">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">Red &amp; Black check shirt</a></h6>
-          <div class="product_price">
-           <span class="price">$55.00</span>
-           <del>$95.00</del>
-           <div class="on_sale">
-            <span>25% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:68%"></div>
-           </div>
-           <span class="rating_num">(15)</span>
-          </div>
+         <div class="author_name">
+          <h6>Alden Smith</h6>
+          <span>Designer</span>
          </div>
         </div>
        </div>
-       <div class="item">
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img3.jpg" alt="product_img3">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">woman full sliv dress</a></h6>
-          <div class="product_price">
-           <span class="price">$68.00</span>
-           <del>$99.00</del>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:87%"></div>
-           </div>
-           <span class="rating_num">(25)</span>
-          </div>
-         </div>
+       <div class="testimonial_box">
+        <div class="testimonial_desc">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis possimus quasi sint sit tempora voluptatem.</p>
         </div>
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img8.jpg" alt="product_img8">
-          </a>
+        <div class="author_wrap">
+         <div class="author_img">
+          <img src="assets/images/user_img3.jpg" alt="user_img3" />
          </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">Men blue jins Shirt</a></h6>
-          <div class="product_price">
-           <span class="price">$69.00</span>
-           <del>$89.00</del>
-           <div class="on_sale">
-            <span>20% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:70%"></div>
-           </div>
-           <span class="rating_num">(22)</span>
-          </div>
-         </div>
-        </div>
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img13.jpg" alt="product_img13">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">Pink Dress for woman</a></h6>
-          <div class="product_price">
-           <span class="price">$65.00</span>
-           <del>$80.00</del>
-           <div class="on_sale">
-            <span>30% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:80%"></div>
-           </div>
-           <span class="rating_num">(28)</span>
-          </div>
+         <div class="author_name">
+          <h6>Daisy Lana</h6>
+          <span>Designer</span>
          </div>
         </div>
        </div>
-       <div class="item">
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img4.jpg" alt="product_img4">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">light blue Shirt</a></h6>
-          <div class="product_price">
-           <span class="price">$69.00</span>
-           <del>$89.00</del>
-           <div class="on_sale">
-            <span>20% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:70%"></div>
-           </div>
-           <span class="rating_num">(22)</span>
-          </div>
-         </div>
+       <div class="testimonial_box">
+        <div class="testimonial_desc">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis possimus quasi sint sit tempora voluptatem.</p>
         </div>
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img9.jpg" alt="product_img9">
-          </a>
+        <div class="author_wrap">
+         <div class="author_img">
+          <img src="assets/images/user_img4.jpg" alt="user_img4" />
          </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">T-Shirt Form Girls</a></h6>
-          <div class="product_price">
-           <span class="price">$45.00</span>
-           <del>$55.25</del>
-           <div class="on_sale">
-            <span>35% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:80%"></div>
-           </div>
-           <span class="rating_num">(21)</span>
-          </div>
-         </div>
-        </div>
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img14.jpg" alt="product_img14">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">White shirt for man</a></h6>
-          <div class="product_price">
-           <span class="price">$55.00</span>
-           <del>$60.00</del>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:68%"></div>
-           </div>
-           <span class="rating_num">(15)</span>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="item">
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img5.jpg" alt="product_img5">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">blue dress for woman</a></h6>
-          <div class="product_price">
-           <span class="price">$45.00</span>
-           <del>$55.25</del>
-           <div class="on_sale">
-            <span>35% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:80%"></div>
-           </div>
-           <span class="rating_num">(21)</span>
-          </div>
-         </div>
-        </div>
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img11.jpg" alt="product_img11">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">Black dress for woman</a></h6>
-          <div class="product_price">
-           <span class="price">$68.00</span>
-           <del>$99.00</del>
-           <div class="on_sale">
-            <span>20% Off</span>
-           </div>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:87%"></div>
-           </div>
-           <span class="rating_num">(25)</span>
-          </div>
-         </div>
-        </div>
-        <div class="product">
-         <div class="product_img">
-          <a href="shop-product-detail.html">
-           <img src="assets/images/product_img15.jpg" alt="product_img15">
-          </a>
-         </div>
-         <div class="product_info">
-          <h6 class="product_title"><a href="shop-product-detail.html">Pink Dress for Baby Kids</a></h6>
-          <div class="product_price">
-           <span class="price">$55.00</span>
-           <del>$60.00</del>
-          </div>
-          <div class="rating_wrap">
-           <div class="rating">
-            <div class="product_rate" style="width:68%"></div>
-           </div>
-           <span class="rating_num">(15)</span>
-          </div>
+         <div class="author_name">
+          <h6>John Becker</h6>
+          <span>Designer</span>
          </div>
         </div>
        </div>
@@ -2406,41 +2247,98 @@
     </div>
    </div>
   </div>
-  <!-- END SECTION SHOP -->
+  <!-- END SECTION TESTIMONIAL -->
 
+  <!-- START SECTION SHOP INFO -->
+  <div class="section pb_70">
+   <div class="container">
+    <div class="row no-gutters">
+     <div class="col-lg-4">
+      <div class="icon_box icon_box_style1">
+       <div class="icon">
+        <i class="flaticon-shipped"></i>
+       </div>
+       <div class="icon_box_content">
+        <h5>Free Delivery</h5>
+        <p>If you are going to use of Lorem, you need to be sure there anything</p>
+       </div>
+      </div>
+     </div>
+     <div class="col-lg-4">
+      <div class="icon_box icon_box_style1">
+       <div class="icon">
+        <i class="flaticon-money-back"></i>
+       </div>
+       <div class="icon_box_content">
+        <h5>30 Day Return</h5>
+        <p>If you are going to use of Lorem, you need to be sure there anything</p>
+       </div>
+      </div>
+     </div>
+     <div class="col-lg-4">
+      <div class="icon_box icon_box_style1">
+       <div class="icon">
+        <i class="flaticon-support"></i>
+       </div>
+       <div class="icon_box_content">
+        <h5>27/4 Support</h5>
+        <p>If you are going to use of Lorem, you need to be sure there anything</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- END SECTION SHOP INFO -->
 
+  <!-- START SECTION SUBSCRIBE NEWSLETTER -->
+  <div class="section bg_default small_pt small_pb">
+   <div class="container">
+    <div class="row align-items-center">
+     <div class="col-md-6">
+      <div class="heading_s1 mb-md-0 heading_light">
+       <h3>Subscribe Our Newsletter</h3>
+      </div>
+     </div>
+     <div class="col-md-6">
+      <div class="newsletter_form">
+       <form>
+        <input type="text" required="" class="form-control rounded-0" placeholder="Enter Email Address">
+        <button type="submit" class="btn btn-dark rounded-0" name="submit" value="Submit">Subscribe</button>
+       </form>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- START SECTION SUBSCRIBE NEWSLETTER -->
 
  </div>
  <!-- END MAIN CONTENT -->
 
  <!-- START FOOTER -->
- <footer class="bg_gray">
-  <div class="footer_top small_pt pb_20">
+ <footer class="footer_dark">
+  <div class="footer_top">
    <div class="container">
-    <div class="row justify-content-between">
-     <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="row">
+     <div class="col-lg-3 col-md-6 col-sm-12">
       <div class="widget">
        <div class="footer_logo">
-        <a href="#"><img src="assets/images/logo-zk.png" width="140" height="80" alt="logo" /></a>
+        <a href="#"><img src="assets/images/logo_light.png" alt="logo" /></a>
        </div>
-       <p class="mb-3">If you are going to use of Lorem Ipsum need to be sure there isn't anything hidden of text</p>
-       <ul class="contact_info">
-        <li>
-         <i class="ti-location-pin"></i>
-         <p>1, Adeokun Street, Oworonshoki</p>
-        </li>
-        <li>
-         <i class="ti-email"></i>
-         <a href="mailto:info@zionkolors.com">info@zionkolors.com</a>
-        </li>
-        <li>
-         <i class="ti-mobile"></i>
-         <p><a href="tel:+2348038425980" class="text-secondary">+234 803 842 5980</a></p>
-        </li>
+       <p>If you are going to use of Lorem Ipsum need to be sure there isn't hidden of text</p>
+      </div>
+      <div class="widget">
+       <ul class="social_icons social_white">
+        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+        <li><a href="#"><i class="ion-social-youtube-outline"></i></a></li>
+        <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
        </ul>
       </div>
      </div>
-     <div class="col-lg-2 col-md-4 col-sm-6">
+     <div class="col-lg-2 col-md-3 col-sm-6">
       <div class="widget">
        <h6 class="widget_title">Useful Links</h6>
        <ul class="widget_links">
@@ -2452,19 +2350,18 @@
        </ul>
       </div>
      </div>
-     <div class="col-lg-2 col-md-4 col-sm-6">
+     <div class="col-lg-2 col-md-3 col-sm-6">
       <div class="widget">
-       <h6 class="widget_title">My Account</h6>
+       <h6 class="widget_title">Category</h6>
        <ul class="widget_links">
-        <li><a href="#">My Account</a></li>
-        <li><a href="#">Discount</a></li>
-        <li><a href="#">Returns</a></li>
-        <li><a href="#">Orders History</a></li>
-        <li><a href="#">Order Tracking</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Woman</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Best Saller</a></li>
+        <li><a href="#">New Arrivals</a></li>
        </ul>
       </div>
      </div>
-
      <div class="col-lg-2 col-md-6 col-sm-6">
       <div class="widget">
        <h6 class="widget_title">My Account</h6>
@@ -2477,50 +2374,23 @@
        </ul>
       </div>
      </div>
-
-    </div>
-   </div>
-  </div>
-  <div class="middle_footer">
-   <div class="container">
-    <div class="row">
-     <div class="col-12">
-      <div class="shopping_info">
-       <div class="row justify-content-center">
-        <div class="col-md-4">
-         <div class="icon_box icon_box_style2">
-          <div class="icon">
-           <i class="flaticon-shipped"></i>
-          </div>
-          <div class="icon_box_content">
-           <h5>Free Delivery</h5>
-           <p>Phasellus blandit massa enim elit of passage varius nunc.</p>
-          </div>
-         </div>
-        </div>
-        <div class="col-md-4">
-         <div class="icon_box icon_box_style2">
-          <div class="icon">
-           <i class="flaticon-money-back"></i>
-          </div>
-          <div class="icon_box_content">
-           <h5>30 Day Returns Guarantee</h5>
-           <p>Phasellus blandit massa enim elit of passage varius nunc.</p>
-          </div>
-         </div>
-        </div>
-        <div class="col-md-4">
-         <div class="icon_box icon_box_style2">
-          <div class="icon">
-           <i class="flaticon-support"></i>
-          </div>
-          <div class="icon_box_content">
-           <h5>27/4 Online Support</h5>
-           <p>Phasellus blandit massa enim elit of passage varius nunc.</p>
-          </div>
-         </div>
-        </div>
-       </div>
+     <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="widget">
+       <h6 class="widget_title">Contact Info</h6>
+       <ul class="contact_info contact_info_light">
+        <li>
+         <i class="ti-location-pin"></i>
+         <p>123 Street, Old Trafford, New South London , UK</p>
+        </li>
+        <li>
+         <i class="ti-email"></i>
+         <a href="mailto:info@sitename.com">info@sitename.com</a>
+        </li>
+        <li>
+         <i class="ti-mobile"></i>
+         <p>+ 457 789 789 65</p>
+        </li>
+       </ul>
       </div>
      </div>
     </div>
@@ -2528,11 +2398,29 @@
   </div>
   <div class="bottom_footer border-top-tran">
    <div class="container">
-    <div class="row align-items-center">
-     <div class="col-lg-12">
-      <p class="mb-lg-0 text-center">© 2020 All Rights Reserved</p>
+    <div class="row">
+     <div class="col-md-6">
+      <p class="mb-md-0 text-center text-md-left">© 2020 All Rights Reserved by Bestwebcreator</p>
      </div>
-
+     <div class="col-md-6">
+      <ul class="footer_payment text-center text-lg-right">
+       <li>
+        <a href="#"><img src="assets/images/visa.png" alt="visa"></a>
+       </li>
+       <li>
+        <a href="#"><img src="assets/images/discover.png" alt="discover"></a>
+       </li>
+       <li>
+        <a href="#"><img src="assets/images/master_card.png" alt="master_card"></a>
+       </li>
+       <li>
+        <a href="#"><img src="assets/images/paypal.png" alt="paypal"></a>
+       </li>
+       <li>
+        <a href="#"><img src="assets/images/amarican_express.png" alt="amarican_express"></a>
+       </li>
+      </ul>
+     </div>
     </div>
    </div>
   </div>
